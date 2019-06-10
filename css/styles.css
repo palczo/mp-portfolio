@@ -1,0 +1,408 @@
+/* TAG SELECTORS */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    /* padding: 2%; */
+    text-transform: uppercase;
+}
+
+p {
+    color: #4c4c4c;
+}
+
+a {
+    color: #FFF;
+}
+
+a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin: auto 0;
+}
+
+
+/* ID SELECTORS */
+
+#title {
+    background-color: #000000;
+    padding: 0;
+}
+
+
+/* CLASS SELECTORS */
+
+.section-heading {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    padding: 2.5%;
+}
+
+.white-bg {
+    color: #000;
+    background: #fff;
+    margin: 0;
+}
+
+.black-bg {
+    color: #fff;
+    background: #000;
+    margin: 0;
+}
+
+.highlights {
+    font-weight: 700;
+}
+
+.milwicz-img {
+    padding: 13px 0;
+}
+
+
+/* NAVIGATION BAR */
+
+#navigation {
+    padding: 100px 260px;
+    text-align: left;
+    background-color: #000 !important;
+    color: #FFF;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.flex-item:nth-child(1) {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+.flex-item:nth-child(2) {
+    order: 2;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+}
+
+.navbar {
+    padding: 0 8%;
+}
+
+.nav-item {
+    padding: 0 13px;
+}
+
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.title-heading {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1;
+    margin-top: 2%;
+}
+
+.title-heading>h1 {
+    padding: 0 !important;
+}
+
+.title-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 0.8;
+}
+
+.title-subheading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+
+/* DOWNLOAD BUTTONS */
+
+
+/* .hello-btn {
+    padding: 0;
+    margin: 0;
+} */
+
+.top-download-button {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 4%;
+}
+
+.bottom-download-button {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 1%;
+}
+
+
+/* HELLO */
+
+.hello {
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+}
+
+
+/* PORTRAIT */
+
+
+/* .portrait {
+    vertical-align: center;
+} */
+
+.img-fluid {
+    width: 400px;
+    position: relative;
+    text-align: center;
+    border-radius: 100%;
+    padding: 40px;
+}
+
+
+/* AWARDS & EXHIBITIONS */
+
+#awards {
+    background-color: #fff;
+    position: relative;
+    padding-top: 0;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+}
+
+.duties {
+    text-align: justify;
+    padding: 3%;
+}
+
+.feature-box {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feature-box.edu {
+    padding: 3%;
+}
+
+.feature-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.timing {
+    font-size: 0.9rem;
+}
+
+.co-op {
+    font-size: 0.8rem;
+}
+
+
+/* TESTIMONIALS */
+
+#testimonials {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonials-image {
+    border-radius: 0%;
+    margin-top: 0;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    margin-left: 7%;
+    width: 90%;
+    filter: grayscale(100%);
+}
+
+.carousel-item {
+    padding: 3% 2% 2% 3%;
+}
+
+.p-text {
+    color: #FFFFFF;
+    line-height: 1.9;
+}
+
+.p-text.details {
+    font-size: 80%;
+    text-align: justify;
+}
+
+
+/* PRICING */
+
+#strengths {
+    padding: 0 100px 25px;
+    text-align: center;
+    background-color: #000 !important;
+    color: #FFF;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    background-color: #ace2f9;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        vertical-align: middle;
+    }
+}
+
+
+/* CALL TO ACTION */
+
+#cta {
+    background-color: #ffffff;
+    padding: 0 100px 25px;
+    text-align: center;
+}
+
+
+/* SOFTWARE */
+
+.software-img {
+    width: 30%;
+    filter: grayscale(100%);
+    padding-bottom: 2px;
+}
+
+.grid-container {
+    padding: 0 300px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "revit archicad autocad ps rhinoceros" "threedsmax vray artlantis lumion sketchup";
+    text-align: center;
+}
+
+.revit {
+    grid-area: revit;
+}
+
+.archicad {
+    grid-area: archicad;
+}
+
+.autocad {
+    grid-area: autocad;
+}
+
+.ps {
+    grid-area: ps;
+}
+
+.rhinoceros {
+    grid-area: rhinoceros;
+}
+
+.vray {
+    grid-area: vray;
+}
+
+.artlantis {
+    grid-area: artlantis;
+}
+
+.lumion {
+    grid-area: lumion;
+}
+
+.sketchup {
+    grid-area: sketchup;
+}
+
+.threedsmax {
+    grid-area: threedsmax;
+}
+
+
+/* EDUCATION */
+
+.education-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 8%;
+    margin-right: 5%;
+    padding-bottom: 3.5%;
+}
+
+.uni-image {
+    width: 30%;
+    padding-bottom: 3.5%;
+    filter: grayscale(100%);
+}
+
+.p-text-edu {
+    color: #000000;
+    line-height: 1.9;
+}
+
+.p-text-edu.details {
+    font-size: 80%;
+    text-align: justify;
+}
+
+
+/* FOOTER */
+
+#footer {
+    background-color: #000;
+    margin: auto 0;
+    text-align: center;
+    padding: 3% 3%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.p-footer {
+    margin-bottom: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
