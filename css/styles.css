@@ -1,7 +1,7 @@
 /* TAG SELECTORS */
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     /* padding: 2%; */
     text-transform: uppercase;
 }
@@ -46,7 +46,7 @@ li {
 
 .section-heading {
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 38px;
     font-weight: 400;
     line-height: 1.5;
@@ -107,7 +107,7 @@ li {
 }
 
 .navbar-brand {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2.5em;
 }
 
@@ -120,7 +120,7 @@ li {
 }
 
 .nav-link {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
     font-weight: 300;
 }
@@ -173,7 +173,7 @@ li {
 /* HELLO */
 
 .hello {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 38px;
 }
 
@@ -371,6 +371,11 @@ li {
     margin-left: 8%;
     margin-right: 5%;
     padding-bottom: 3.5%;
+}
+
+.edu-description {
+    text-align: center;
+    font-size: 12px;
 }
 
 .uni-image {
