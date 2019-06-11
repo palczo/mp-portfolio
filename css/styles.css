@@ -206,7 +206,7 @@ li {
 }
 
 .duties {
-    text-align: justify;
+    text-align: center;
     padding: 3%;
 }
 
@@ -306,13 +306,13 @@ li {
 /* SOFTWARE */
 
 .software-img {
-    width: 30%;
+    width: 100%;
     filter: grayscale(100%);
-    padding-bottom: 2px;
+    padding: 30px;
 }
 
 .grid-container {
-    padding: 0 300px 25px;
+    padding: 0 220px 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -380,7 +380,8 @@ li {
 
 .uni-image {
     width: 30%;
-    padding-bottom: 3.5%;
+    /* padding-bottom: 3.5%; */
+    margin-bottom: 20px;
     filter: grayscale(100%);
 }
 
