@@ -413,6 +413,7 @@ li {
     padding: 2.5%;
     word-spacing: 12px;
     text-align: center;
+    display: inline-block;
 }
 
 .social-icon {
