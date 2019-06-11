@@ -401,6 +401,7 @@ li {
 }
 
 .p-footer {
+    margin: 0;
     color: #fff;
     text-transform: uppercase;
 }
