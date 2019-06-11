@@ -393,9 +393,8 @@ li {
 
 #footer {
     background-color: #000;
-    margin: auto 0;
     text-align: center;
-    padding: 0 0 2.5% 0;
+    padding: 0 0 1.5% 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 }
