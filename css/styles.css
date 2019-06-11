@@ -230,20 +230,20 @@ li {
 
 /* LIST #2 */
 
-#list2 {
+.list2 {
     padding: 15px 0 0 0;
 }
 
-#list2 ol {
+.list2>ol {
     font-size: 24px;
     font-weight: 700;
     color: #4c4c4c;
     padding-left: 0;
 }
 
-#list2 ol li {}
+.list2>ol>li {}
 
-#list2 ol li p {
+.list2>ol>li>p {
     padding: 0;
     font-size: 13px;
     color: #4c4c4c;
@@ -251,7 +251,7 @@ li {
     text-transform: uppercase;
 }
 
-#list2 ol li p em {
+list2>ol>li>p>em {
     display: block;
 }
 
