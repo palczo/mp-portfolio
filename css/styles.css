@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: #FFF;
+    color: hotpink;
     text-decoration: none;
 }
 
@@ -204,7 +204,7 @@ li {
 
 .duties {
     text-align: center;
-    padding: 3%;
+    padding: 0 3%;
 }
 
 .feature-box {
@@ -225,6 +225,34 @@ li {
 
 .co-op {
     font-size: 0.8rem;
+}
+
+
+/* LIST #2 */
+
+#list2 {
+    padding: 15px 0 0 0;
+}
+
+#list2 ol {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4c4c4c;
+    padding-left: 0;
+}
+
+#list2 ol li {}
+
+#list2 ol li p {
+    padding: 0;
+    font-size: 13px;
+    color: #4c4c4c;
+    border-left: 1px solid #000;
+    text-transform: uppercase;
+}
+
+#list2 ol li p em {
+    display: block;
 }
 
 
